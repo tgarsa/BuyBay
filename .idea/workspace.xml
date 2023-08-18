@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c24cdd88-f559-433b-8309-1220171515d8" name="Changes" comment="Added, manually, a Raspberry PI 3 IP">
+    <list default="true" id="c24cdd88-f559-433b-8309-1220171515d8" name="Changes" comment="Added a function to load automatically the IP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/Loads/01 Load platform_cost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/01 Load platform_cost.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/Loads/02 Load grading_fees.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/02 Load grading_fees.ipynb" afterDir="false" />
@@ -76,12 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692388233568</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a function to load automatically the IP">
+      <option name="closed" value="true" />
+      <created>1692395859070</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692395859070</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Load" />
     <MESSAGE value="Added, manually, a Raspberry PI 3 IP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added, manually, a Raspberry PI 3 IP" />
+    <MESSAGE value="Added a function to load automatically the IP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a function to load automatically the IP" />
   </component>
 </project>
