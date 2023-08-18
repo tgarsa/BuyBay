@@ -15,7 +15,9 @@ from datetime import timedelta
 
 
 # Our ip
-ip = '192.168.178.35'
+# ip = '192.168.178.35'
+# Raspberry pi 3
+ip = '192.168.178.172'
 
 # To connect with the database
 connexion = psycopg2.connect(
