@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+pandas
+numpy
+psycopg2-binary
+# To add security
+typing_extensions
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]

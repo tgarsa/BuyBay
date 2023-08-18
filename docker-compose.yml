@@ -1,0 +1,41 @@
+version: '2'
+services:
+
+  product-api:
+    build: product-api
+    hostname: product-api
+    container_name: product-api
+    volumes:
+      - ./product-api/:/app
+    ports:
+      - "5000:5000"
+    depends_on:
+      - postgres-db
+
+  finance-api:
+    build: finance-api
+    hostname: finance-api
+    container_name: finance-api
+    volumes:
+      - ./finance-api/:/app
+    ports:
+      - "5010:5010"
+    depends_on:
+      - postgres-db
+
+
+  postgres-db:
+    build: postgres-buybay
+    hostname: postgres-buybay
+    container_name: postgres-buybay
+    environment:
+      POSTGRES_DB: BuyBay
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: lop34sw@D
+    volumes:
+      - ./postgres-buybay/:/app
+    ports:
+      - "5432:5432"
+    restart: always
+
+
