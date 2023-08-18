@@ -1,7 +1,7 @@
+import pandas as pd
 import numpy as np
 from fastapi import FastAPI
 from pydantic import BaseModel
-import pandas as pd
 # to have access to PostgresSQL database
 import psycopg2
 from psycopg2.extensions import register_adapter, AsIs
