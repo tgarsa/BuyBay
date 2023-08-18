@@ -15,11 +15,9 @@ from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordRequestForm
 from datetime import timedelta
 
-
-# Our ip
-# ip = '192.168.178.35'
-# Raspberry pi 3
-ip = '192.168.178.172'
+# Load the ip system
+from utils import _get_ip
+ip = _get_ip()
 
 # To connect with the database
 conexion = psycopg2.connect(

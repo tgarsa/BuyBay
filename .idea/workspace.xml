@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c24cdd88-f559-433b-8309-1220171515d8" name="Changes" comment="First Load">
+    <list default="true" id="c24cdd88-f559-433b-8309-1220171515d8" name="Changes" comment="Added, manually, a Raspberry PI 3 IP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-api/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/finance-api/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-api/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/product-api/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/Loads/01 Load platform_cost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/01 Load platform_cost.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/Loads/02 Load grading_fees.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/02 Load grading_fees.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/Loads/03 Load transport_cost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/03 Load transport_cost.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/Loads/04 Load graded_products.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/04 Load graded_products.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/Loads/05 Load Products.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/05 Load Products.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/Test DataBase.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Test DataBase.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,11 +68,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692385272807</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added, manually, a Raspberry PI 3 IP">
+      <option name="closed" value="true" />
+      <created>1692388233568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692388233568</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Load" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Load" />
+    <MESSAGE value="Added, manually, a Raspberry PI 3 IP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added, manually, a Raspberry PI 3 IP" />
   </component>
 </project>
