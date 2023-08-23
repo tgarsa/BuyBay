@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c24cdd88-f559-433b-8309-1220171515d8" name="Changes" comment="I added the option to save data in a persistent format in a local folder.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c24cdd88-f559-433b-8309-1220171515d8" name="Changes" comment="Deleted the data">
       <change beforePath="$PROJECT_DIR$/Notebooks/Loads/01 Load platform_cost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/01 Load platform_cost.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/Loads/02 Load grading_fees.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/02 Load grading_fees.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/Loads/03 Load transport_cost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/03 Load transport_cost.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/Loads/04 Load graded_products.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/04 Load graded_products.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/Loads/05 Load Products.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/05 Load Products.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/Test DataBase.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Test DataBase.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance-api/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/finance-api/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance-api/security.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-api/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/product-api/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-api/security.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +96,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692806027181</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Deleted the data">
+      <option name="closed" value="true" />
+      <created>1692807571380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692807571380</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Deleted the data">
+      <option name="closed" value="true" />
+      <created>1692807697323</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692807697323</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -101,6 +120,7 @@
     <MESSAGE value="Added, manually, a Raspberry PI 3 IP" />
     <MESSAGE value="Added a function to load automatically the IP" />
     <MESSAGE value="I added the option to save data in a persistent format in a local folder." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added the option to save data in a persistent format in a local folder." />
+    <MESSAGE value="Deleted the data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted the data" />
   </component>
 </project>

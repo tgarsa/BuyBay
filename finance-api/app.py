@@ -6,12 +6,6 @@ from pydantic import BaseModel
 import psycopg2
 from psycopg2.extensions import register_adapter, AsIs
 register_adapter(np.int64, AsIs)
-# To add security
-import security as sec
-from typing_extensions import Annotated
-from fastapi import Depends, HTTPException, status
-from fastapi.security import OAuth2PasswordRequestForm
-from datetime import timedelta
 
 # Load the ip system
 from utils import _get_ip
@@ -83,27 +77,8 @@ def _get_product_data(license_plate):
 
 
 # These are the API definition.
-@app.post("/token", response_model=sec.Token)
-async def login_for_access_token(form_data: Annotated[OAuth2PasswordRequestForm, Depends()]):
-    user = sec.authenticate_user(sec.fake_users_db, form_data.username, form_data.password)
-    if not user:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Incorrect username or password",
-            headers={"WWW-Authenticate": "Bearer"},
-        )
-    access_token_expires = timedelta(minutes=sec.ACCESS_TOKEN_EXPIRE_MINUTES)
-    access_token = sec.create_access_token(
-        data={"sub": user.username}, expires_delta=access_token_expires
-    )
-    return {"access_token": access_token, "token_type": "bearer"}
-
-
 @app.get('/partner_data', tags=["PartnerAPI"])
-async def partner_api(
-        incoming_data: Input,
-        current_user: Annotated[sec.User, Depends(sec.get_current_active_user)]
-):
+async def partner_api(incoming_data: Input):
 
     # license_plate. Our input data
     license_plate = incoming_data.license_plate
@@ -121,9 +96,7 @@ async def partner_api(
 
 
 @app.get('/finance_report', tags=["Finance Report"])
-async def finance_report(
-        current_user: Annotated[sec.User, Depends(sec.get_current_active_user)]
-):
+async def finance_report():
 
     # Connected to the server
     cursor = connexion.cursor()
