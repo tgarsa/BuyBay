@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c24cdd88-f559-433b-8309-1220171515d8" name="Changes" comment="Deleted the data">
+    <list default="true" id="c24cdd88-f559-433b-8309-1220171515d8" name="Changes" comment="Deleted the security">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/Loads/01 Load platform_cost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/01 Load platform_cost.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/Loads/02 Load grading_fees.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/02 Load grading_fees.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/Loads/03 Load transport_cost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/03 Load transport_cost.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/Loads/04 Load graded_products.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/04 Load graded_products.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/Loads/05 Load Products.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Loads/05 Load Products.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/Test DataBase.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Test DataBase.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-api/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/finance-api/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-api/security.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-api/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/product-api/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-api/security.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/library.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +28,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0e444df4-b8bf-4252-aa28-108315d69b92" />
+        <option name="url" value="git@github.com:tgarsa/BuyBay.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/JetBrains.gitignore" root0="FORCE_HIGHLIGHTING" />
@@ -112,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692807697323</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Deleted the security">
+      <option name="closed" value="true" />
+      <created>1692808616505</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692808616505</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,6 +140,7 @@
     <MESSAGE value="Added a function to load automatically the IP" />
     <MESSAGE value="I added the option to save data in a persistent format in a local folder." />
     <MESSAGE value="Deleted the data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted the data" />
+    <MESSAGE value="Deleted the security" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted the security" />
   </component>
 </project>
