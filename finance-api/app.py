@@ -37,10 +37,7 @@ def _to_dataframe(cursor, columns):
     :param columns: Name of the table's columns
     :return: The DataFrame
     '''
-
-    df = pd.DataFrame(columns=columns)
-    for fila in cursor:
-        df = pd.concat([df, pd.DataFrame(pd.Series(fila, columns)).transpose()])
+    df = pd.DataFrame(cursor.fetchall(), columns=columns)
     return df.reset_index(drop=True)
 
 
@@ -63,13 +60,15 @@ def _get_product_data(license_plate):
     if cursor.rowcount == 0:
         print('The Product is not in our Database')
     elif cursor.rowcount == 1:
-        for fila in cursor:
-            return_dict['license_plate'] = fila[0]
-            return_dict['sold_price'] = fila[1]
-            return_dict['transport_cost'] = fila[2]
-            return_dict['platform_fee'] = fila[3]
-            return_dict['grading_fee'] = fila[4]
-            return_dict['last-update'] = fila[5]
+        # Here we need to use a fetchone()
+        fila = cursor.fetchone()
+        # for fila in cursor:
+        return_dict['license_plate'] = fila[0]
+        return_dict['sold_price'] = fila[1]
+        return_dict['transport_cost'] = fila[2]
+        return_dict['platform_fee'] = fila[3]
+        return_dict['grading_fee'] = fila[4]
+        return_dict['last-update'] = fila[5]
     else:
         print("Multiples product with the same license_plate")
 
