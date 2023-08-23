@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c24cdd88-f559-433b-8309-1220171515d8" name="Changes" comment="Clean the notebooks.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebooks/Test DataBase.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Test DataBase.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-api/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/finance-api/app.py" afterDir="false" />
+    <list default="true" id="c24cdd88-f559-433b-8309-1220171515d8" name="Changes" comment="Added the fetchs">
+      <change beforePath="$PROJECT_DIR$/Notebooks/Finance/Finance Report.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Finance/Finance Report.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/Finance/Partner API for Shipped Products.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Finance/Partner API for Shipped Products.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/Finance/library.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692821874935</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added the fetchs">
+      <option name="closed" value="true" />
+      <created>1692824096998</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692824096998</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,6 +153,7 @@
     <MESSAGE value="Deleted the data" />
     <MESSAGE value="Deleted the security" />
     <MESSAGE value="Clean the notebooks." />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean the notebooks." />
+    <MESSAGE value="Added the fetchs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the fetchs" />
   </component>
 </project>
